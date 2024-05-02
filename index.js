@@ -8,9 +8,22 @@ function getComputerChoice () {
 var choice = getComputerChoice();
 
 if (choice <= 3) {
-    console.log( "The computer chose Rock.");
+    console.log( "Rock.");
 } else if (choice > 3 && choice <=6){
-    console.log("The computer chose Paper.")
+    console.log("Paper.")
 } else {
-    console.log( "The computer chose Scissors.");
+    console.log( "Scissors.");
 }
+
+
+function getHumanChoice () {
+  let humanChoice = prompt("Rock, Paper, Scissors?");
+  return  humanChoice;
+  
+}
+
+var hChoice = getHumanChoice();
+
+
+
+
