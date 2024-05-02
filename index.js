@@ -23,14 +23,10 @@ console.log(compChoice)
 // prompt user to make a choice
 function getHumanChoice () {
    let choice = prompt("Rock, Paper, Scissors?");
-
    return choice
-
-  
  }
 let hChoice = getHumanChoice();
 
-//  console.log(`The human choice is ${hChoice}`);
 
 // compare computer and human choice
 
